@@ -2,8 +2,8 @@
   "name": "api-tools",
   "version": "1.0.0",
   "description": "A library with utilities used in all my own REST API´s on JS Environments",
-  "main": "./dist/lib/index.js",
-  "types": "./dist/lib/index.d.ts",
+  "main": "./dist/lib/commonJS/lib/index.js",
+  "module": "./dist/lib/esm/lib/index.d.ts",
   "files": [
     "./lib/"
   ],
