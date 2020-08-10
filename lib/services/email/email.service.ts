@@ -1,8 +1,8 @@
 import Mail from "nodemailer/lib/mailer";
 import {createTransport, SentMessageInfo} from "nodemailer";
-import {Default} from "../entities/response/default";
+import {Default} from "../../entities/response/default";
 import {render} from "ejs";
-import {HttpStatus} from "../entities/enums/http-status";
+import {HttpStatus} from "../../entities/enums/http-status";
 
 export class EmailService {
 
